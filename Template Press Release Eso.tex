@@ -1,0 +1,64 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{caption}
+\usepackage{hyperref} % Para adicionar links
+\usepackage{enumitem} % Para personalizar listas
+
+% Adiciona o pacote para usar Helvetica como fonte sem serifa
+\renewcommand{\rmdefault}{phv} % Usa Helvetica para o texto principal
+\renewcommand{\sfdefault}{phv} % Usa Helvetica para títulos, seções, etc.
+
+\begin{document}
+
+\begin{flushleft}
+    \textbf{Press Release}
+\end{flushleft}
+
+\section*{\Huge Title of the Press Release}
+
+\begin{flushleft}
+    7 December 2023
+\end{flushleft}
+\begin{flushleft}
+    Written by Gustavo Pires Bertaco
+\end{flushleft}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\linewidth]{example-image-a}
+    \caption*{\textbf{Caption for the Image(dimensions 733×300 pixel}}
+\end{figure}
+
+\lipsum[1-3]
+
+\section*{\LARGE More Information}
+
+This research was presented in a paper titled “titulo do artigo" to appear in \textit{ revista publicada, \href{Link}{link}}.\\ 
+
+
+
+The European Southern Observatory (ESO) enables scientists worldwide to discover the secrets of the Universe for the benefit of all. We design, build and operate world-class observatories on the ground — which astronomers use to tackle exciting questions and spread the fascination of astronomy — and promote international collaboration for astronomy. Established as an intergovernmental organisation in 1962, today ESO is supported by 16 Member States (Austria, Belgium, the Czech Republic, Denmark, France, Finland, Germany, Ireland, Italy, the Netherlands, Poland, Portugal, Spain, Sweden, Switzerland and the United Kingdom), along with the host state of Chile and with Australia as a Strategic Partner. ESO’s headquarters and its visitor centre and planetarium, the ESO Supernova, are located close to Munich in Germany, while the Chilean Atacama Desert, a marvellous place with unique conditions to observe the sky, hosts our telescopes. ESO operates three observing sites: La Silla, Paranal and Chajnantor. At Paranal, ESO operates the Very Large Telescope and its Very Large Telescope Interferometer, as well as survey telescopes such as VISTA. Also at Paranal ESO will host and operate the Cherenkov Telescope Array South, the world’s largest and most sensitive gamma-ray observatory. Together with international partners, ESO operates ALMA on Chajnantor, a facility that observes the skies in the millimetre and submillimetre range. At Cerro Armazones, near Paranal, we are building “the world’s biggest eye on the sky” — ESO’s Extremely Large Telescope. From our offices in Santiago, Chile we support our operations in the country and engage with Chilean partners and society. 
+
+
+\section*{\LARGE Links}
+\begin{itemize}[label=$\bullet$] 
+    \item \textbf{\href{https:seu-link-aqui.com}{Research paper}} 
+\end{itemize}
+
+\section*{\LARGE Contacts}
+
+Nome do pesquisador\\
+Institut/departamento \ \\
+Endereço \\
+Tel: \\
+E-mail: 
+
+
+\begin{flushleft}
+    \rule{6cm}{0.5pt}\\
+    {\footnotesize{This press release was written in \LaTeX{} based on ESO press releases by BERTACO, G. P. .}}
+\end{flushleft}
+
+\end{document}
